@@ -1,0 +1,12 @@
+@startuml
+
+skinparam monochrome true
+
+class TextToDirectedGraph {
+    -filePath: String
+    +main(String[]): void
+    +createDirectedGraph(String): Map<String, Map<String, Integer>>
+    +printDirectedGraph(Map<String, Map<String, Integer>>): void
+}
+
+@enduml
