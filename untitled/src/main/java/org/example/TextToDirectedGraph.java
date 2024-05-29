@@ -29,6 +29,7 @@ public class TextToDirectedGraph {
             System.out.println("4. 随机遍历图");
             System.out.println("5. 退出");
             System.out.print("请输入选项 (1-5): ");
+            System.out.println("test git");
             BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
             String option = reader.readLine().trim();
 
