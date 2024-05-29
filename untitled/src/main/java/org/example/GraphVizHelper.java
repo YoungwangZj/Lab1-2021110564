@@ -12,6 +12,7 @@ public class GraphVizHelper {
         gv.decreaseDpi();
         gv.decreaseDpi();
         File out = new File(fileName + "." + type);
+        System.out.println("test B2");
         gv.writeGraphToFile(gv.getGraph(gv.getDotSource(), type), out);
     }
 }
